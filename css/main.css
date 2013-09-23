@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+div#wrapper {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    /* border: 1px solid #FF0000; */
+}
+
+div#header {
+    width: 800px;
+    text-align: center;
+    background-color: #99CC99;
+    font-size: 20px;
+}
+
+.complete {
+    color: #CCC;
+    text-decoration: line-through;
+}
+
+.remove {
+    font-size: 10px;
+    display: inline-block;
+    padding: 3px;
+    background: #C00;
+    color: #FFF;
+    border-radius: 5px;
+    margin: 0 0 0 5px;
+    cursor: pointer;
+}
