@@ -17,7 +17,8 @@ $(function(){
         var $text = $('<span class="text">').text(text);
         var $checkbox = $('<input type="checkbox">');
         var $remove = $('<span class="remove">DEL</span>');
-        $li.append($checkbox).append($text).append($remove);
+        var $edit = $('<span class="edit">EDIT</span>');
+        $li.append($checkbox).append($text).append($edit).append($remove);
 
         // 完了済みの場合の処理
         if(isComplete) {

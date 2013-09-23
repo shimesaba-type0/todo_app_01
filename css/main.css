@@ -31,3 +31,14 @@ div#header {
     margin: 0 0 0 5px;
     cursor: pointer;
 }
+
+.edit {
+    font-size: 10px;
+    display: inline-block;
+    padding: 3px;
+    background: #99CC99;
+    color: #000;
+    border-radius: 5px;
+    margin: 0 0 0 5px;
+    cursor: pointer;
+}
